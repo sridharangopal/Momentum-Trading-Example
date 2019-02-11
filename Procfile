@@ -1,1 +1,1 @@
-
+worker: python algo.py
