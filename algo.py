@@ -8,9 +8,9 @@ from pytz import timezone
 import os
 
 # Replace these with your API connection info from the dashboard
-base_url = os.environ['BASE_URL']
-api_key_id = os.environ['API_KEY_ID']
-api_secret = os.environ['API_SECRET']
+base_url = os.environ['APCA_BASE_URL']
+api_key_id = os.environ['APCA_API_KEY_ID']
+api_secret = os.environ['APCA_API_SECRET_KEY']
 
 api = tradeapi.REST(
     base_url=base_url,
